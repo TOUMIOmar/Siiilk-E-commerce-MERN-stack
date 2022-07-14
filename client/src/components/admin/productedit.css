@@ -1,0 +1,79 @@
+.ok {
+    z-index: 50000;
+  }
+    .formz-style-n {
+      background-color: #23221D;
+      margin-left: -400px;
+      margin-bottom: 10px;
+      font-family: "Yeseva One", Serif;
+      border: 1px solid #23221d;
+      opacity: 2;
+      z-index: 50000;
+      width: 530px;
+      
+    }
+    .formz-style-nn{
+   margin-left: 70px;
+   color: white;
+    }
+    .formz-style-n #title-n {
+    position: relative;
+    display: block;
+    color: black;
+    background: #f1f1ef;
+    font-size: 15px;
+    text-align: left;
+    font-style: normal;
+    border: 1px solid gray;
+    width: 350px;
+    height: 35px;
+    font-family: "Yeseva One", Serif;
+  }
+  .formz-style-n #title-n:hover {
+    background: white;
+  }
+  .formz-style-n #description-n {
+    font-size: 15px;
+    text-align: left;
+    font-style: normal;
+    font-family: "Yeseva One", Serif;
+    width: 350px;
+    height: 70px;
+  
+  }
+  .formz-style-n #qty-n  {
+    font-size: 15px;
+    text-align: left;
+    font-style: normal;
+    font-family: "Yeseva One", Serif;
+    width: 50px;
+    height: 30px;
+  }
+  .formz-style-n #price-nn {
+    font-size: 15px;
+    text-align: left;
+    font-style: normal;
+    font-family: "Yeseva One", Serif;
+    width: 50px;
+    height: 30px;
+  }
+  .formz-style-n #button-n{
+    margin-left: 150px;
+    margin-bottom: 5px ;
+    font-family: "Killam", Serif;
+    background: #333;
+    font-weight: 200;
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+   
+   
+  }
+  .formz-style-n #button-n:hover{
+    background: rgb(59, 82, 60);
+    transition: all 0.3s ease;
+  }

@@ -1,0 +1,197 @@
+.container-formz{
+  margin-left: 250px;
+ }
+ 
+ .container-formp input {
+   font-family: "Hahmlet", Serif;
+   font-size: 15px;
+   padding: 5px 10px 5px 5px;
+   outline: none;
+ }
+ .legedp {
+   font-size: 1.4em;
+   margin-bottom: 10px;
+   border: none;
+ }
+ .numberp {
+   background: #e4a131;
+   color: #fff;
+   height: 30px;
+   width: 30px;
+   display: inline-block;
+   font-size: 0.8em;
+   margin-right: 4px;
+   line-height: 30px;
+   text-align: center;
+   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+   border: none;
+ }
+ .formp-style-5 {
+   margin-top: 85px;
+   background: white;
+   margin-left: 300px;
+   margin-bottom: 10px;
+   width: 750px;
+   font-family: "Yeseva One", Serif;
+   margin-left: 30px;
+   border: 1px solid black;
+ }
+ .formp-style-5 h1 {
+   color: gray;
+   font-family: "Yeseva One", Serif;
+   font-size: 18px;
+   margin-left: 20px;
+ }
+ .ffft {
+   color: gray;
+   margin-top: -68px;
+ }
+ .dd {
+   margin-top: 5px;
+ }
+ .formp-style-5 #titlep {
+   position: relative;
+   display: block;
+   color: black;
+   background: #f1f1ef;
+   font-size: 15px;
+   text-align: left;
+   font-style: normal;
+   border: 1px solid gray;
+   width: 250px;
+   height: 25px;
+   margin-top: 10px;
+ }
+ .formp-style-5 label {
+   margin-top: 10px;
+   font-family: "Hahmlet", Serif;
+   color: gray;
+ }
+ #ty {
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ #date {
+   margin-top: 10px;
+ }
+ 
+ .formp-style-5 .titlep
+  input[type="text"]:focus {
+   border: 1px solid #555;
+ }
+ .formp-style-5 #tittlez {
+   margin-left: 300px;
+   float: left;
+   margin-bottom: 10px;
+ }
+ 
+ .order-envoyeremail #env {
+   font-family: "Killam", Serif;
+   transform: translate(-0%, -0%);
+   background: #333;
+   border-radius: 3px;
+   font-weight: 400;
+   height: 40px;
+   width: 100px;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   cursor: pointer;
+   overflow: hidden;
+   transition: all 0.35s;
+   margin-left: 518px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+ }
+ .res {
+   font-family: "Killam", Serif;
+   background: #333;
+   font-weight: 400;
+   height: 40px;
+   width: 100px;
+   border-radius: 3px;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   overflow: hidden;
+   float: right;
+   margin-right: 20px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+ }
+ .order-envoyeremail #env:hover {
+   background: rgb(60, 83, 61);
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+ }
+ 
+ .order-envoyeremail #env span {
+   opacity: 1;
+   visibility: visible;
+   transition: all 0.35s;
+ }
+ .res:hover {
+   background: rgb(82, 59, 59);
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+ }
+ 
+ #env .success {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #fff;
+   border-radius: 50%;
+   z-index: 1;
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.35s;
+ }
+ 
+ #env .success svg {
+   width: 20px;
+   height: 20px;
+   fill: #23221d;
+   transform-origin: 50% 50%;
+   transform: translateY(-50%) rotate(0deg) scale(0);
+   transition: all 0.35s;
+ }
+ 
+ button.is_active {
+   width: 40px;
+   height: 40px;
+ }
+ 
+ button.is_active .success {
+   opacity: 1;
+   visibility: visible;
+ }
+ 
+ button.is_active .success svg {
+   margin-top: 50%;
+   transform: translateY(-50%) rotate(720deg) scale(1);
+ }
+ 
+ button.is_active span {
+   opacity: 0;
+   visibility: hidden;
+ }
+ /*help*/
+ .helpt {
+   margin: 20px 0;
+   float: right;
+   background: white;
+   width: 320px;
+   position: relative;
+   border-radius: 3px;
+   padding: 20px;
+   margin-top: -200px;
+   margin-right: 60px;
+ }
+ 

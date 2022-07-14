@@ -1,0 +1,147 @@
+.logyiny-button {
+  margin-right: 70px;
+}
+
+.adminy-all {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: rgb(234,189,87);
+  background: radial-gradient(circle, rgba(234,189,87,1) 11%, rgba(241,241,239,1) 52%, rgba(240,237,232,1) 57%, rgba(236,215,194,1) 74%);
+}
+.logyiny-box {
+  height: 500px;
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 170px;
+  padding-top: 50px;
+  background: #EABD57;
+  text-align: center;
+  box-shadow: 3px 6px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.logyiny-key {
+  font-family: 'Yeseva One',
+  Serif;
+  height: 100px;
+  font-size: 80px;
+  line-height: 100px;
+  background: -webkit-linear-gradient(#E4A131, #EABD57);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logyiny-title {
+  font-family: 'Yeseva One',
+  Serif;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ecf0f5;
+}
+
+.logyiny-formy {
+  font-family: 'Yeseva One',
+  Serif;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+
+
+.logy_input .formy-control {
+  font-family: 'Hahmlet',
+  Serif;
+  background-color: #EABD57;
+  border: none;
+  border-bottom: 2px solid #E4A131;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  padding-left: 2px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.formy-group {
+  margin-bottom: 40px;
+  outline: 0px;
+}
+
+.formy-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 2px solid #E4A131;
+  outline: 0;
+  background-color: #EABD57;
+  color: black;
+}
+
+.logy_input .formy-control:focus {
+  outline: none;
+  box-shadow: 0 0 0;
+}
+
+.logy_input .formy-control {
+  margin-bottom: 0px;
+}
+
+.formy-control-label {
+  font-family: 'Hahmlet',
+  Serif;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btny-outline-primary {
+  font-family: 'Hahmlet',
+  Serif;
+  width: 150px;
+  background-color: #f79a21;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btny-outline-primary:hover {
+  background-color: #9398ad;
+  right: 0px;
+}
+
+.logyiny-btm {
+  float: left;
+}
+
+.logyiny-button {
+  padding-right: 0px;
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+.logyiny-text {
+  text-align: left;
+  padding-left: 0px;
+  color: #a2a4a4;
+}
+
+.logyinybttm {
+  padding: 0px;
+}

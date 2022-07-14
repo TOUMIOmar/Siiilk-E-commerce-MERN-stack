@@ -1,0 +1,99 @@
+#dasho {
+  display: flex;
+}
+#dasho-two {
+  background-color: rgb(38, 41, 39);
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 18rem;
+  padding: 1.8rem 0.85rem;
+  color: rgb(240, 229, 229);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.5s ease-in-out;
+}
+#hideo{
+  font-family: 'Yeseva One',
+  Serif;
+  margin-left: 90px;
+}
+
+#sidebaro {
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+
+#linko {
+  font-family: 'Yeseva One',
+  Serif;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  align-items: center;
+  
+}
+
+#icone {
+  display: flex;
+  position: relative;
+  color: gray;
+  margin-left: -28px;
+  top: 21px;
+ 
+  padding-bottom: 1px;
+  display: flex;
+  width: 15px;
+  font-size: 20px;
+  margin-top: 13px;
+}
+#sidebaro #ulo,
+#sidebaro #ilo {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#lion{
+  text-decoration: none;
+  color: azure;
+  cursor: pointer;
+}
+#sidebaro #linko :hover{
+  background-color: gray;
+}
+.sideso-links #ilo #sidebaro #icone {
+  display: flex;
+}
+
+#logo {
+  margin-left: 72px;
+  display: flex;
+  border: 4px solid #cddc39;
+  padding: 2px;
+  border-radius: 50%;
+  border-top-color: #ff5722;
+  border-left-color: #ff5722;
+  width: 75px;
+  height: 75px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sideso-links {
+    padding-top: 15px;
+  }
+  .sideso-links #ilo {
+    font-size: 18px;
+  }
+}

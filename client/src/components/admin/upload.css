@@ -1,0 +1,321 @@
+.mainz_container {
+  background-color: #f1f1ef;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.textz-center #testz {
+  font-family: "Yeseva One", Serif;
+  margin-left: 255px;
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 300;
+  opacity: 0.8;
+}
+.formz-style-5 {
+  margin-top: 25px;
+  background: #fdeb9b;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  width: 750px;
+  font-family: "Yeseva One", Serif;
+  margin-left: 30px;
+  border: 1px solid #23221d;
+}
+.formz-style-5 #fildz {
+  border: none;
+}
+.formz-style-5 #legedz {
+  font-size: 1.4em;
+  margin-bottom: 1px;
+}
+.formz-style-5 .labelz {
+  display: block;
+  margin-bottom: 8px;
+}
+.formz-style-5 .labelz-2 {
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+}
+.checkboxzez,
+.checkboxzez1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.formz-style-5 #select {
+  font-family: "Killam", Serif;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.formz-style-5 #select1 {
+  font-family: "Killam", Serif;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+#imze {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #23221d;
+  box-shadow: inset 0 0 0 2px #e4a131;
+  background-color: transparent;
+  height: 28px;
+}
+#imze:hover {
+  color: #e4a131;
+  background-color: #23221d;
+}
+
+.formz-style-5 #select {
+  -webkit-appearance: menulist-button;
+  height: 10px;
+}
+.formz-style-5 #select1 {
+  -webkit-appearance: menulist-button;
+  height: 10px;
+}
+.formz-style-5 .numberz {
+  background: #e4a131;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 15px 15px 15px 0px;
+}
+.formz-style-5 #titlezz,
+.formz-style-5 #titlezz {
+  position: relative;
+  display: block;
+  color: black;
+  background: #f1f1ef;
+  font-size: 15px;
+  text-align: left;
+  font-style: normal;
+  border: 1px solid gray;
+  width: 350px;
+  height: 35px;
+}
+.formz-style-5 #titlezz:hover,
+.formz-style-5 #titlezz:hover {
+  background: white;
+}
+
+/** color box*/
+.formz-style-5 #select,
+.formz-style-5 #select1 {
+  position: relative;
+  display: block;
+  color: #eabd57;
+  font-size: 15px;
+  text-align: center;
+  font-style: normal;
+  border: 1px solid #737470;
+}
+.formz-style-5 #select:hover,
+.formz-style-5 #select1:hover {
+  background: #23221d;
+  color: #e4a131;
+}
+/*size*/
+/* On mouse-over, add a grey background color */
+.checkboxz:hover #select {
+  background: #23221d;
+  color: #e4a131;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkboxz :checked ~ #select {
+  background: #23221d;
+  color: #e4a131;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkboxz:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxz :checked ~ #select:after {
+  display: block;
+}
+/*color*/
+/* On mouse-over, add a grey background color */
+.checkboxz1:hover #select1 {
+  background: #23221d;
+  color: #e4a131;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkboxz1 :checked ~ #select1 {
+  background: #23221d;
+  color: #e4a131;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkboxz1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxz1 :checked ~ #select1:after {
+  display: block;
+  color: #e4a131;
+}
+.labelz {
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  line-height: normal;
+  border-radius: 0;
+  border: none;
+  background: #edc76e;
+  display: block;
+}
+.labelz-2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  line-height: normal;
+  border-radius: 0;
+  border: none;
+  background: #edc76e;
+  display: block;
+}
+#select1,
+#select,
+.formz #select,
+.formz #select1,
+.formz .textzarea,
+.formz .checkboxz-input,
+.checkboxz-input1 {
+  font: inherit;
+  line-height: normal;
+  box-sizing: border-box;
+  background: #e4a131;
+  color: #23221d;
+  position: relative;
+}
+
+.formz .option-input,
+.formz .checkboxz-input,
+.checkboxz-input1 {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.formz .option-input,
+.labelz,
+.labelz-2,
+.formz .checkboxz-input,
+.formz .checkboxz-input1 {
+  position: relative;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 40em) {
+  .formz .fieldz.half {
+    width: calc(50% - 1px);
+  }
+}
+
+.formz #select #select1 {
+  text-indent: 0.01px;
+  text-overflow: "" !important;
+}
+
+.formz .checkboxz,
+.formz .checkboxz1 {
+  float: left;
+}
+#select #select1 {
+  pointer-events: none;
+}
+
+#messagy {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgb(22, 21, 21);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 400px;
+}
+.ad_submit {
+  background-color: #f79a21;
+  border-radius: 4px;
+  border: 1px dotted #23221d;
+  color: #23221d;
+  font-size: 18px;
+  padding: 5px 25px;
+  display: block;
+  margin: auto;
+}
+.ad_submit:hover {
+  border: 1px dotted #23221d;
+  cursor: pointer;
+  background: #23221d;
+  color: #f79a21;
+}
+.ad_submit:focus {
+  outline: none;
+  border: 1px solid #23221d;
+}

@@ -1,0 +1,123 @@
+.container-form input {
+  font-family: "Hahmlet", Serif;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #fde374;
+  background-color: #f1f1ef;
+  outline: none;
+}
+
+.container-form h1 {
+  font-family: "Yeseva One", Serif;
+  color: #A26F15;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.container-form p {
+  font-family: "Hahmlet", Serif;
+  color: #23221d;
+  text-decoration: underline;
+}
+
+.container-form label {
+  font-family: "Yeseva One", Serif;
+  font-size: 18px;
+  color: #cca69b;
+  font-weight: bold;
+}
+
+.text-space {
+  margin-top: 50px;
+}
+
+.fixmyimput {
+  height: 120px;
+}
+
+.fixmyimput2 {
+  height: 80px;
+}
+
+.wrapper-envoyeremail {
+  margin-top: 1%;
+  padding-left: 35%;
+}
+.wrapper-envoyeremail span {
+  font-family: "Yeseva One", Serif;
+}
+
+.wrapper-envoyeremail button {
+  font-family: "Yeseva One", Serif;
+  transform: translate(-0%, -0%);
+  width: 170px;
+  height: 40px;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 4px solid #fde374;
+  background: #23221d;
+  color: #fde374;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+
+.wrapper-envoyeremail button:hover {
+  background: #fde374;
+  color: #23221d;
+  border: 4px solid #23221d;
+}
+
+.wrapper-envoyeremail button span {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.35s;
+}
+
+.success {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s;
+}
+
+.success svg {
+  width: 20px;
+  height: 20px;
+  fill: #23221d;
+  transform-origin: 50% 50%;
+  transform: translateY(-50%) rotate(0deg) scale(0);
+  transition: all 0.35s;
+}
+
+button.is_active {
+  width: 40px;
+  height: 40px;
+}
+
+button.is_active .success {
+  opacity: 1;
+  visibility: visible;
+}
+
+button.is_active .success svg {
+  margin-top: 50%;
+  transform: translateY(-50%) rotate(720deg) scale(1);
+}
+
+button.is_active span {
+  opacity: 0;
+  visibility: hidden;
+}

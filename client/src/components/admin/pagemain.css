@@ -1,0 +1,213 @@
+.containerty-center {
+  width: 100%;
+  background-color: #F1F1EF;
+}
+
+.wrappery__dashboard .texty {
+  color: #3a3b3f;
+  margin-left: 20px;
+}
+.wrappery__dashboard #titry {
+  font-weight: 400;
+  margin-left: 20px;
+  font-family: "Yeseva One", Serif;
+  margin-left: 255px;
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.boxy {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+}
+.contenty {
+  background-color: #B4BAD4;
+  padding: 20px;
+}
+.contenty-pagemain .boxy {
+  border-left: 3px solid transparent;
+}
+.contenty-pagemain .boxy #sp {
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+.contenty-pagemain .boxy .pp {
+  color: #211F21;
+  margin-top: 10px;
+}
+/* start first contenty-pagemain */
+.contenty-pagemain .first-boxy {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.contenty-pagemain .first-boxy .boxy {
+  background-color: #FDEB9B;
+  padding: 20px;
+  width: calc((100% - 20px) / 2);
+}
+.contenty-pagemain .first-boxy .one {
+  border-color: #e91e63;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+.contenty-pagemain .first-boxy .one #sp {
+  color: #e91e63;
+}
+.contenty-pagemain .first-boxy .tow {
+  border-color: #009688;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.contenty-pagemain .first-boxy .tow #sp {
+  color: #009688;
+}
+/*second box*/
+.contenty-pagemain .secound-boxy {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.contenty-pagemain .secound-boxy .boxy {
+  background-color: #FDEB9B;
+  padding: 20px;
+  width: calc((100% - 20px) / 2);
+}
+.contenty-pagemain .secound-boxy .three {
+  border-color: #ff5722;
+  margin-right: 20px;
+}
+.contenty-pagemain .secound-boxy .three #sp {
+  color: #ff5722;
+}
+.contenty-pagemain .secound-boxy .four {
+  border-color: #2196f3;
+  margin-right: 17px;
+}
+.contenty-pagemain .secound-boxy .four #sp {
+  color: #2196f3;
+}
+
+/* end first contenty */
+
+/* start second contenty */
+.secound-contenty {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 3px solid #3f51b5;
+}
+.secound-contenty .head-contenty #ti {
+  background-color: #E4A131;
+  padding: 10px;
+  color: #241904;
+  margin-right: 20px;
+}
+.secound-contenty .items-contenty {
+  background-color: #FDEB9B;
+}
+.secound-contenty .items-contenty .di {
+  padding: 10px;
+}
+.secound-contenty .items-contenty #sp {
+  float: right;
+}
+/* end second contenty */
+.rwdy-table {
+ 
+  width: 97%;
+}
+
+.rwdy-table .titi {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwdy-table #thh {
+  display: none;
+}
+.rwdy-table #tdd {
+  display: block;
+}
+.rwdy-table #tdd:first-child {
+  padding-top: 0.5em;
+}
+.rwdy-table #tdd:last-child {
+  padding-bottom: 0.5em;
+}
+.rwdy-table #tdd:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwdy-table #tdd:before {
+    display: none;
+  }
+}
+.rwdy-table #thh,
+.rwdy-table #tdd {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwdy-table #thh,
+  .rwdy-table #tdd {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+  }
+  .rwdy-table #thh:first-child,
+  .rwdy-table #tdd:first-child {
+    padding-left: 0;
+  }
+  .rwdy-table #thh:last-child,
+  .rwdy-table #tdd:last-child {
+    padding-right: 0;
+  }
+}
+
+.rwdy-table {
+  background: #211F21;
+  color: #fff;
+  border-radius: 0.4em;
+  overflow: hidden;
+  margin-left: 10px;
+
+  padding-right: 50px;
+}
+.rwdy-table .titi {
+  border-color: #46637f;
+}
+.rwdy-table #thh,
+.rwdy-table #tdd {
+  margin: 0.5em 1em;
+}
+@media (min-width: 480px) {
+  .rwdy-table #thh,
+  .rwdy-table #tdd {
+    padding: 1em !important;
+  }
+}
+.rwdy-table #thh,
+.rwdy-table #tdd:before {
+  color: #dd5;
+}
